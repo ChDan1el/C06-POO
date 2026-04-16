@@ -3,6 +3,7 @@ package org.example;
 public class Kart {
     public String nome;
     public Piloto piloto;
+    public Motor motor;
 
     public Kart(){
         Motor motor = new Motor();
